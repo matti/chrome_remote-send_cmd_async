@@ -1,8 +1,5 @@
-require "chrome_remote/send_cmd_async/version"
-
 module ChromeRemote
-  module SendCmdAsync
-    class Error < StandardError; end
-    # Your code goes here...
-  end
 end
+
+require "chrome_remote/send_cmd_async/version"
+require "chrome_remote/send_cmd_async/client"
